@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.collection {
+    @apply flex flex-wrap items-center justify-between
+}
+
+.menu-btn {
+    @apply text-white cursor-pointer text-lg hidden
+}
+.menu {
+    @apply list-none inline-block
+}
+.anchors {
+    @apply block text-white text-lg font-medium ml-6 transition ease-in duration-700 hover:text-red-700
+}
+.typing {
+    @apply text-red-600 font-medium
+}
+ 
